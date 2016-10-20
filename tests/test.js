@@ -17,5 +17,5 @@ $.fn.test = function(){
 		'document.compatMode is "' + document.compatMode + '"'
 	);
 
-	return this.scrollTo('max', 1000).scrollTo(0, 1000);
+	return this.scrollTo('max', 1000, {easing:'easeInCubic'}).scrollTo(0, 1000, {easing:'easeInCubic'});
 };
